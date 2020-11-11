@@ -2,8 +2,7 @@
 
 Below are my current and past projects in Github
 
-My most recent is Shop-POC [editor on GitHub](https://github.com/doriachen/doriachen.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
-
+My most recent project is Shop-POC [which can be found here](https://github.com/KathyLau/shop-poc)
 
 {% assign orderedRepos = site.github.public_repositories | sort: 'stargazers_count' | reverse %}
 {% for repository in orderedRepos %}
