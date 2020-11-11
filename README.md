@@ -1,8 +1,8 @@
 ## Doria Chen
 
-Below are my current and past projects in Github
-
 My most recent project is Shop-POC [which can be found here](https://github.com/KathyLau/shop-poc)
+_The Shop-POC and shop-poc-1 repositories below are forked from the original project repository_
+Below are my current and past projects in Github
 
 {% assign orderedRepos = site.github.public_repositories | sort: 'stargazers_count' | reverse %}
 {% for repository in orderedRepos %}
